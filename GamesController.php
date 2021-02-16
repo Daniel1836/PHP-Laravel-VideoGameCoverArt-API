@@ -23,8 +23,8 @@ class GamesController extends Controller {
                $client = new \GuzzleHttp\Client(['base_uri' =>  'https://api.igdb.com/v4/games' ]);
                $response = $client->request('POST', 'multiquery', [
                 'headers' => [
-                   'Client-ID'=> 't3qfl3qldbe7ft7sp90gqw2mxk0m20',
-                   'Authorization' => 'Bearer 5xknzmaxkw3ph1f2ivixzfab8ms18q',
+                   'Client-ID'=> '***authorization***',
+                   'Authorization' => 'Bearer ***token***',
                 
                 ],
                 'body' => '
